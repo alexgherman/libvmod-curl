@@ -43,7 +43,7 @@ if test "x$PYTHON" = "xno"; then
 	AC_MSG_ERROR([Python is needed to build this vmod, please install python.])
 fi
 
-VARNISH_PREREQ([7.3.0])
+# VARNISH_PREREQ([7.3.0])
 VARNISH_VMODS([curl])
 
 AX_CURLOPT_CHECK([CURLOPT_TIMEOUT_MS])
